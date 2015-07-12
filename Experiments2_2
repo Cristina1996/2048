@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js"> </script>
+<script>
+var isHide = false;
+$(document).ready(function () 
+{ 
+$("button").click(function () 
+{ 
+$("[align='center']").toggle();
+});
+
+});
+</script>
+
+<h2 class="test">This is a heading</h2>
+<p class="test" align = "center">This is a paragraph.</p>
+<p>This is another paragraph.</p>
+<button>Click me</button>
+</head>
+</html>
