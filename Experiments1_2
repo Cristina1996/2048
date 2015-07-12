@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="http://code.jquery.com/jquery-latest.js">
+</script>
+<script>
+
+$(document).ready(function ()
+ {
+   $("#but1").click(function () 
+     {
+       $("tr:even").hide();
+     });
+   $("#but2").click(function ()
+     {
+       $("tr:even").show();
+     });
+ });
+</script>
+
+</head>
+<body>
+
+<button id="but1">Click me</button>
+<button id="but2">Click me for show</button>
+<table border="1">
+ <tr>
+    <th>Имя</th>
+    <th>Фамилия</th>
+  </tr>
+ <tr>
+    <th>Кристина</th>
+    <th>Ципилёва</th>
+  </tr>
+ <tr>
+    <th>Анна</th>
+    <th>Тарасова</th>
+  </tr>
+ <tr>
+    <th>Анастасия</th>
+    <th>Кривошейн</th>
+  </tr>
+ <tr>
+    <th>Алексей</th>
+    <th>Мардюков</th>
+  </tr>
+ <tr>
+    <th>Мордред</th>
+    <th>Линкольн</th>
+  </tr>
+
+</body>
+</html>
